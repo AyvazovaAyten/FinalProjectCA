@@ -1,0 +1,188 @@
+﻿@model Bio
+@{
+    var requestCulture = Context.Features.Get<IRequestCultureFeature>();
+    var cultureItems = LocOptions.Value.SupportedUICultures
+        .Select(c => new SelectListItem { Value = c.Name, Text = c.NativeName })
+        .ToList(); }
+<header>
+    <div class="top-bar">
+        <div class="container-lg">
+            <div class="left-side">
+                <ul class="left-list">
+                    <li class="list-item">
+                        <a onclick="window.open('https://www.google.com/maps/place/BakenRoll+Sushi+Bar/40.368233,49.8280513,17z/data=!3m1!4b1!4m5!3m4!1s0x40307dc83004c171:0xb41a1a95081be914!8m2!3d40.368233!4d49.83024')"
+                           title="Find us on map">
+                            <i class="fas fa-map-marker-alt"></i>@Model.Adress
+                        </a>
+                    </li>
+                    @if (Model.PhoneNumbers.Count() >= 1)
+                    {
+                        <li id="phone-btn" class="list-item">
+                            <a href="tel:@Model.PhoneNumbers.ElementAt(0).Number" class="mob-tel" title="Call us">
+                                <i class="fas fa-phone-square nav-phone"></i><span>@Model.PhoneNumbers.ElementAt(0).Number</span>
+                            </a>
+                            @if (Model.PhoneNumbers.ToList().Count > 1)
+                            {
+                                <ul class="phone-list">
+                                    @for (int i = 0; i < Model.PhoneNumbers.ToList().Count; i++)
+                                    {
+                                        <li class="tel-li">
+                                            <a href="tel:@Model.PhoneNumbers.ElementAt(i).Number" class="mob-tel" title="Call Us">
+                                                <i class="fas fa-phone-square"></i><span>@Model.PhoneNumbers.ElementAt(i).Number</span>
+                                            </a>
+                                        </li>
+                                    }
+                                </ul>
+                            }
+
+                        </li>
+                    }
+
+                    <li class="callback-phone list-item call-request">
+                        <a>
+                            <i class="fas fa-headset"></i><span>
+                                Make a call
+                                request
+                            </span>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a title="Working hours">
+                            <i class="fas fa-clock"></i>@Localizer["WorkHour"]&nbsp;<span class="time">@Model.WorkingHours</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contacts">
+                <ul class="contacts-list">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item hover-drop">
+                            <div class="dropdown">
+                                <a asp-controller="UserAccount" asp-action="Index"><span class="user-name">@User.Identity.Name</span></a>
+                                <div class="dropdown-content account-dropdown" style="left:0;">
+                                    <a asp-controller="UserAccount" asp-action="Index">@Localizer["Account"]</a>
+                                    <a asp-controller="Auth" asp-action="LogOut">@Localizer["LogOut"]</a>
+                                </div>
+                            </div>
+                        </li>
+                    }
+                    else
+                    {
+                        <li><a asp-controller="Auth" asp-action="Login">@Localizer["Login"]</a></li>
+                        <li><a asp-controller="Auth" asp-action="Register">@Localizer["Register"]</a></li>
+                    }
+
+                <li id="lang">
+                    @*<div class="dropdown" asp-controller="Base" asp-action="SetLanguage">
+            <a class="dropbtn" data-lang="en"><span>EN</span><i class="fas fa-sort-down"></i></a>
+            <div class="dropdown-content lang-dropdown" style="left:0;">
+                <a class="langbtn" data-lang="az-Latn">AZ</a>
+            </div>
+
+
+
+
+        </div>*@
+                    <form asp-controller="Base" asp-action="SetLanguage"
+                          asp-route-returnUrl="@Context.Request.Path"
+                          method="post" class="form-horizontal" id="langForm">
+                        @* <select name="culture" onchange="this.form.submit();">
+        @*<option value="" disabled selected></option>*@
+                        @*<option value="en" class="langbtn">En</option>
+        <option value="az-Latn" class="langbtn">Az</option>
+        </select>*@
+                        <select name="culture" onchange="this.form.submit();"
+                                asp-for="@requestCulture.RequestCulture.UICulture.Name">
+                            <option selected="selected" value="en">EN</option>
+                            <option value="az-Latn">AZ</option>
+                        </select>
+                    </form>
+                </li>
+                </ul>
+                <div class="social-media">
+                    <a class="sm-link" href="@Model.FbLink"><i class="fab fa-facebook-square"></i></a>
+                    <a class="sm-link" href="@Model.InstagramLink"><i class="fab fa-instagram"></i></a>
+                    <a class="sm-link" href="@Model.WhatsappLink"><i class="fab fa-whatsapp"></i></a>
+                    <a class="sm-link" href="@Model.YoutubeLink"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <nav class="navigation-menu">
+        <div class="container-lg header-container">
+            <div class="burger-btn">
+                <div class="burger">
+                    <div class="burger-line line-before"></div>
+                    <div class="main-burger-line"></div>
+                    <div class="burger-line line-after"></div>
+                </div>
+            </div>
+            <a asp-controller="Home" asp-action="Index" id="logo">
+                <img alt="logo" class="logo" src="~/assets/images/@Model.Logo">
+            </a>
+            <ul class="mob-nav-items">
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <li class="nav-item drop user">
+                        <a asp-controller="UserAccount" asp-action="Index"><i class="fas fa-user" aria-hidden="true"></i></a>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item drop user">
+                        <a asp-controller="Auth" asp-action="LogIn"><i class="fas fa-user" aria-hidden="true"></i></a>
+                    </li>
+                }
+
+            </ul>
+            <ul class="navigation-items">
+                <li class="nav-item active">
+                    <a class="nav-link" asp-controller="Home" asp-action="Index">@Localizer["Home"]</a>
+                    <span class="nav-item-line"></span>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Menu" asp-action="Index">@Localizer["Menu"]</a>
+                    <span class="nav-item-line"></span>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Campaigns" asp-action="Index">@Localizer["Campaigns"]</a>
+                    <span class="nav-item-line"></span>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Delivery" asp-action="Index">@Localizer["Delivery"]</a>
+                    <span class="nav-item-line"></span>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="About" asp-action="Index">@Localizer["About"]</a>
+                    <span class="nav-item-line"></span>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacts">@Localizer["Contact"]</a>
+                    <span class="nav-item-line"></span>
+                </li>
+            </ul>
+            <div class="nav-item shopping">
+                <div class="shopping-bag">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="count-circle">@ViewData["CartCount"]</span>
+                </div>
+                <div id="ShoppingBag" tabindex="1">
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="overlay"></div>
+<div class="menu-nav" data-name="mob-menu">
+    <div class="nav-links d-flex flex-column">
+        <a class="nav-mobile-link" asp-controller="Home" asp-action="Index">@Localizer["Home"]</a>
+        <a class="nav-mobile-link" asp-controller="Menu" asp-action="Index">@Localizer["Menu"]</a>
+        <a class="nav-mob" asp-controller="Campaigns" asp-action="Index">@Localizer["Campaigns"]</a>
+        <a class="nav-mobile-link" asp-controller="Delivery" asp-action="Index">@Localizer["Delivery"]</a>
+        <a class="nav-mobile-link" asp-controller="About" asp-action="Index">@Localizer["About"]</a>
+        <a class="nav-mobile-link" href="#contacts">@Localizer["Contact"]</a>
+    </div>
+</div>

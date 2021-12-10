@@ -1,0 +1,56 @@
+﻿<div class="shoppingBag">
+    <div class="bag-content">
+        <div class="bag-title">@Localizer["Cart"] (<span id="cart-summary-count">@ViewData["CartCount"]</span>)</div>
+        <div class="basket_products">
+            @foreach (CartProduct product in Model)
+            {
+                <div class="basket-product" data-key="@product.ProductId">
+                    <div class="product__image" data-link="https://www.bakenroll.az/en/dish/sushi-tort">
+                        <img src="~/assets/images/products/@product.Image" alt="Product Image">
+                    </div>
+                    <div class="product__info">
+                        <div class="left-col">
+                            <p class="cart-text">
+                                <a asp-controller="Product" asp-action="Index" asp-route-id="@product.ProductId"
+                                   class="product_title">
+                                    @product.Name
+                                </a>
+                            </p>
+                            <p class="cart-text count">@Localizer["Count"]: <span id="summary-count">@product.Quantity</span> </p>
+                        </div>
+                        <div class="right-col">
+                            <p class="cart-text price current-price">@product.CurrentPrice AZN</p>
+                            <div data-id="@product.ProductId" data-count="@product.Quantity" class="del-btn cart-summary-del-btn"><i class="fas fa-trash-alt"></i></div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="basket_footer">
+            <div class="cart-row col-12 total-price-row">
+                <p class="cart-text column-4">@Localizer["Total"]</p>
+                <p><span class="cart-summary-total">@ViewData["TotalPrice"]</span> AZN</p>
+            </div>
+            <div class="delivery-info">
+                <div class="cart-row">
+                    <p>@Localizer["MinAmount"]</p>
+                    <p>10 AZN</p>
+                </div>
+            </div>
+            <div class="cart-row col-12">
+                <div class="btn-box"><a asp-controller="Cart" asp-action="Index" class="cart-btn">@Localizer["ShowBasket"]</a></div>
+                <div class="btn-box">
+                    <a asp-controller="Cart" asp-action="CheckOut" class="cart-btn buy">@Localizer["Buy"]</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+

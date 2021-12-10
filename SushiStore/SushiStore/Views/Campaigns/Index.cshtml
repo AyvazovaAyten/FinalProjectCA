@@ -1,0 +1,56 @@
+﻿@model List<IntroSlider>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!-- Page Intro Begins -->
+<section class="page-intro">
+    <div class="container-lg flex-col">
+        <h1 class="page-title">Bake<span class="">&amp;</span>Roll&nbsp;Campaigns</h1>
+        <div>
+            <a asp-controller="Home" asp-action="Index"
+               title="Bake&amp;Roll - Online Sushi Order &amp; Free Sushi Delivery in Baku"><span>Bake&amp;Roll</span></a>
+            <span title="Campaigns"><span itemprop="name">Campaigns</span></span>
+        </div>
+    </div>
+</section>
+<!-- Page Intro Ends -->
+<!-- Blog Begins -->
+<!-- Blog Begins -->
+<section class="blog_section">
+    <div class="container-lg">
+        <div class="campaign-grid">
+            @foreach (IntroSlider campaign in Model)
+            {
+                <div class="campaign-wrapper">
+                    <article class="campaign">
+                        <div class="image">
+                            <img src="~/assets/images/campaigns/@campaign.Image"
+                                 alt="@campaign.SliderText">
+                        </div>
+                        <div class="info">
+                            <h3>@campaign.SliderText</h3>
+                            <p class="info-text">
+                                @campaign.Description
+                            </p>
+                            <span class="secondary-text"><i class="fas fa-bullhorn"></i>@campaign.Duration</span>
+                        </div>
+
+                        <a asp-action="Campaign" asp-route-id="@campaign.Id" class="campaign-link"></a>
+                    </article>
+                </div>
+            }
+
+        </div>
+    </div>
+</section>
+<!-- Blog Ends -->
+<!-- Blog Ends -->
+
+@section Script{
+    <partial name="_Script" />
+}
+
+@section Title{
+    Campaigns
+}

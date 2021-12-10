@@ -1,0 +1,520 @@
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\SushiStore.exe
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\SushiStore.deps.json
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\SushiStore.runtimeconfig.json
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\SushiStore.runtimeconfig.dev.json
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\SushiStore.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\SushiStore.pdb
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\SushiStore.Views.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\SushiStore.Views.pdb
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.csprojAssemblyReference.cache
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.AssemblyInfoInputs.cache
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.AssemblyInfo.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.csproj.CoreCompileInputs.cache
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.RazorAssemblyInfo.cache
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.RazorAssemblyInfo.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\staticwebassets\SushiStore.StaticWebAssets.Manifest.cache
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\staticwebassets\SushiStore.StaticWebAssets.xml
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\scopedcss\bundle\SushiStore.styles.css
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.TagHelpers.input.cache
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.TagHelpers.output.cache
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.RazorCoreGenerate.cache
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.RazorTargetAssemblyInfo.cache
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.RazorTargetAssemblyInfo.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Views.pdb
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.csproj.CopyComplete
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.pdb
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.genruntimeconfig.cache
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Header\Default.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Footer\Default.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Script.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ScriptHome.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Campaigns\Index.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Product\Default.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Index.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CartSummaryPartial.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ScriptCart.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Auth\Register.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Auth\LogIn.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart\CheckOut.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Completed.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\UserAccount\Index.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Menu\Index.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Menu\Product.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Create.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Delete.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Detail.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Update.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Create.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Delete.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Detail.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Update.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_ChildCategoryPartial.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Script.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Slider\Create.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Slider\Delete.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Slider\Detail.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Slider\Index.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Slider\Update.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\ChangePassword.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\ChangeRole.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\ChangeStatus.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Delivery\Index.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Menu\_ProductsPartial.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScript.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Auth\ForgotPassword.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Auth\ForgotPasswordConfirmation.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Auth\ResetPassword.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Auth\ResetPasswordConfirmation.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Auth\MailConfirm.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\UserAccount\ChangePassword.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\UserAccount\_RatingPartial.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Bio\Update.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Bio\Contacts.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Campaigns\Campaign.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\About\Index.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.csproj.GenerateResource.cache
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Localization.AspNetCore.TagHelpers.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\az-Latn\SushiStore.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Home.Index.az-Latn.resources
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\az-Latn\SushiStore.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\en\SushiStore.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Home.Index.en.resources
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\en\SushiStore.resources.dll
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Shared.Components.Header.Default.az-Latn.resources
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Shared.Components.Header.Default.en.resources
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Shared.Components.Footer.Default.az-Latn.resources
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Shared.Components.Footer.Default.en.resources
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Shared.Components.Product.Default.az-Latn.resources
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Shared.Components.Product.Default.en.resources
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Shared._CartSummaryPartial.az-Latn.resources
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Shared._CartSummaryPartial.en.resources
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Cart.Index.az-Latn.resources
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Cart.İndex.en.resources
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Cart.CheckOut.en.resources
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Cart.CheckOut.az-Latn.resources
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Cart.Completed.az-Latn.resources
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Cart.Completed.en.resources
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.UserAccount.Index.az-Latn.resources
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.UserAccount.Index.en.resources
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\About\Index.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\About\Update.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Delivery\Update.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Delivery\UpdateDeliveryAdress.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\JS\Default.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\EditPage\AddJS.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\EditPage\AddCSS.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CSS\Default.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SEO\Index.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SEO\UpdateTitle.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Tags\Default.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SEO\MetaTags.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Bio\Footer.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\PageIntros\Index.cshtml.g.cs
+C:\Users\Шахвалад\source\repos\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\PageIntros\Detail.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\SushiStore.exe
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\SushiStore.deps.json
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\SushiStore.runtimeconfig.json
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\SushiStore.runtimeconfig.dev.json
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\SushiStore.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\SushiStore.pdb
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\az-Latn\SushiStore.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\en\SushiStore.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\SushiStore.Views.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\SushiStore.Views.pdb
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Localization.AspNetCore.TagHelpers.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.csproj.AssemblyReference.cache
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Cart.CheckOut.az-Latn.resources
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Cart.CheckOut.en.resources
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Cart.Completed.az-Latn.resources
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Cart.Completed.en.resources
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Cart.Index.az-Latn.resources
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Cart.İndex.en.resources
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Home.Index.az-Latn.resources
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Home.Index.en.resources
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Shared.Components.Footer.Default.az-Latn.resources
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Shared.Components.Footer.Default.en.resources
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Shared.Components.Header.Default.az-Latn.resources
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Shared.Components.Header.Default.en.resources
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Shared.Components.Product.Default.az-Latn.resources
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Shared.Components.Product.Default.en.resources
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Shared._CartSummaryPartial.az-Latn.resources
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.Shared._CartSummaryPartial.en.resources
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.UserAccount.Index.az-Latn.resources
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Resources.Views.UserAccount.Index.en.resources
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.csproj.GenerateResource.cache
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.AssemblyInfoInputs.cache
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.AssemblyInfo.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.csproj.CoreCompileInputs.cache
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.RazorAssemblyInfo.cache
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.RazorAssemblyInfo.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\az-Latn\SushiStore.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\en\SushiStore.resources.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\staticwebassets\SushiStore.StaticWebAssets.Manifest.cache
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\staticwebassets\SushiStore.StaticWebAssets.xml
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\scopedcss\bundle\SushiStore.styles.css
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.TagHelpers.input.cache
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.TagHelpers.output.cache
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.RazorCoreGenerate.cache
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\About\Index.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\About\Update.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Bio\Contacts.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Bio\Footer.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Bio\Update.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Create.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Delete.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Detail.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Update.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Delivery\Update.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Delivery\UpdateDeliveryAdress.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\EditPage\AddCSS.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\EditPage\AddJS.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\PageIntros\Index.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Create.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Delete.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Detail.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Update.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SEO\Index.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SEO\MetaTags.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SEO\UpdateTitle.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_ChildCategoryPartial.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Script.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Slider\Create.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Slider\Delete.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Slider\Detail.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Slider\Index.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Slider\Update.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\ChangePassword.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\ChangeRole.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\ChangeStatus.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\About\Index.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Auth\ForgotPassword.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Auth\ForgotPasswordConfirmation.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Auth\LogIn.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Auth\MailConfirm.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Auth\Register.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Auth\ResetPassword.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Auth\ResetPasswordConfirmation.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Campaigns\Campaign.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Campaigns\Index.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart\CheckOut.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Completed.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Index.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Delivery\Index.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Menu\Index.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Menu\Product.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Menu\_ProductsPartial.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CSS\Default.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Footer\Default.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Header\Default.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\JS\Default.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Product\Default.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Tags\Default.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CartSummaryPartial.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Script.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ScriptCart.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ScriptHome.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScript.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\UserAccount\ChangePassword.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\UserAccount\Index.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\UserAccount\_RatingPartial.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.RazorTargetAssemblyInfo.cache
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.RazorTargetAssemblyInfo.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.Views.pdb
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.csproj.CopyComplete
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.dll
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.pdb
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\SushiStore.genruntimeconfig.cache
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\PageIntros\Update.cshtml.g.cs
+C:\Users\ayvaz\OneDrive\Рабочий стол\SushiStore\SushiStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_ProductListPartial.cshtml.g.cs

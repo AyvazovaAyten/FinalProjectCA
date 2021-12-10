@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewData["Title"] = "AddJS";
+}
+@model JSCode
+<div class="row">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <form class="forms-sample" method="post">
+                    <div class="validation-error" asp-validation-summary="All"></div>
+                    <textarea id='editor' name="code">
+                      @if (Model.Code != null)
+                      {
+                          @Model.Code
+                      }
+
+                    </textarea>
+                    <button type="submit" class="btn btn-success mr-2 mt-4">Save</button>
+                    <a class="btn btn-light mt-4" asp-action="Index">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+@section Script{
+    <partial name="_Script" />
+
+    <link rel="stylesheet" href="~/Admin/vendors/codemirror/lib/codemirror.css" />
+    <link rel="stylesheet" href="~/Admin/vendors/codemirror/theme/monokai.css" />
+
+    <script src="~/Admin/vendors/codemirror/lib/codemirror.js"></script>
+    <script src="~/Admin/vendors/codemirror/mode/javascript/javascript.js"></script>
+    
+    <script src="~/Admin/vendors/codemirror/addon/edit/matchbrackets.js"></script>
+    <script src="~/Admin/vendors/codemirror/addon/edit/closebrackets.js"></script>
+
+    <script>
+        var editor = CodeMirror.fromTextArea(document.getElementById('editor'), {
+            mode: "javascript",
+            lineNumbers: true,
+            theme: 'monokai',
+            matchBrackets: true,
+            autoCloseBrackets: true,
+        });
+        editor.save()
+    </script>
+}

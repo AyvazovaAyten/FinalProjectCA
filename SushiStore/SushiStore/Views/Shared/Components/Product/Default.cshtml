@@ -1,0 +1,137 @@
+﻿@model HomeVM
+@{
+    Layout = null;
+
+    ViewBag.ProductCount = 12;
+}
+@{ int l = 0;}
+@{ var res = 0;}
+@{ string test;}
+
+<!-- Menu Section Starts -->
+<section class="menu_section">
+    <div class="sticky-menu">
+        <div class="container-lg">
+            <ul class="menu-items">
+
+                <li class="menu-item active category sticky-menu-btn" id="@Model.Categories.ElementAt(0).Id">
+                    <p class="menu-link" data-id="@Model.Categories.ElementAt(0).Name.ToLower()">@Model.Categories.ElementAt(0).Name</p>
+                    <span class="nav-item-line"></span>
+                </li>
+
+                @for (int i = 1; i < Model.Categories.Count; i++)
+                {
+                    <li class="menu-item category sticky-menu-btn" id="@Model.Categories.ElementAt(i).Id">
+                        <p class="menu-link" data-id="@Model.Categories.ElementAt(i).Name.ToLower()">@Model.Categories.ElementAt(i).Name</p>
+                        <span class="nav-item-line"></span>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+
+    <div class="container-lg">
+        <div class="product-category active-category">
+
+            <div class="section-title">
+                <p class="title_text" id="categoryName">Sushi Torts</p>
+            </div>
+            <div class="products" id="ProductsList">
+                @foreach (Product product in Model.Products)
+                {
+                    <div class="col-12 card-column product-item" id="@product.Id">
+                        <div class="product-card">
+                            <a class="product" asp-controller="Menu" asp-action="Product" asp-route-id="@product.Id">
+                                <div class="img-wrapper">
+                                    <img class="product product-image"
+                                         src="~/assets/images/products/@product.Image" alt="Product Image">
+                                </div>
+                            </a>
+                            <div class="product-info">
+                                <div class="stars">
+                                    @if (product.Rating != null)
+                                    {
+                                       
+                                        @for (l = 0; l < Math.Floor((double)product.Rating); l++)
+                                        {
+                                            <div class="star">
+                                                <div class="empty">
+                                                    <div class="star-icon"></div>
+                                                </div>
+                                                <div class="full" style="width: 100%;">
+                                                    <div class="star-icon"></div>
+                                                </div>
+                                            </div>
+                                        }
+                                        @for (int j = l; j < 5; j++)
+                                        {
+                                            if (j == l)
+                                            {
+                                                { res = (int)((product.Rating - Math.Floor((double)product.Rating)) * 100); }
+                                                { test = res.ToString() + "%"; }
+                                                <div class="star">
+                                                    <div class="empty">
+                                                        <div class="star-icon"></div>
+                                                    </div>
+                                                    <div class="full" style="width: @test ">
+                                  <div class="star-icon"></div>
+                                                    </div>
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <div class="star">
+                                                    <div class="empty">
+                                                        <div class="star-icon"></div>
+                                                    </div>
+                                                    <div class="full" style="width: 0%;">
+                                                        <div class="star-icon"></div>
+                                                    </div>
+                                                </div>
+                                            }
+
+                                        }
+
+                                    }
+                                    else
+                                    {
+                                        for (int k = 0; k < 5; k++)
+                                        {
+                                            <div class="star">
+                                                <div class="empty">
+                                                    <div class="star-icon"></div>
+                                                </div>
+                                                <div class="full" style="width: 0%;">
+                                                    <div class="star-icon"></div>
+                                                </div>
+                                            </div>
+                                        }
+                                    }
+                                </div>
+                                <a asp-controller="Menu" asp-action="Product" asp-route-id="@product.Id" class="product-title">@product.Name</a>
+                                <p class="info">
+                                    @product.Description
+                                </p>
+
+                            </div>
+                            <div class="price-container">
+                                @if (product.Prices.OldPrice != null && product.Prices.ShowOldPrice == true)
+                                {
+                                    <span aria-label="old-price" class="price-crossed">@product.Prices.OldPrice AZN</span>
+                                }
+                                <span aria-label="price-sale" class="price">@product.Prices.CurrentPrice AZN</span>
+                            </div>
+                            <button type="button" class="add-btn" data-id="@product.Id">@Localizer["AddBtn"]</button>
+                        </div>
+                    </div>
+
+                }
+
+            </div>
+
+        </div>
+        <div id="load-btn-wrap"><span id="load">Load More</span></div>
+
+    </div>
+</section>
+<!-- Menu Section Ends -->

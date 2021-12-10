@@ -1,0 +1,100 @@
+﻿@{ int i = 0;}
+@{ int res = 0;}
+@{ string test;}
+
+@foreach (Product product in Model)
+{
+
+    <div class="col-12  card-column product-item singleProduct" id="@product.Id">
+        <div class="product-card">
+            <a class="product" asp-controller="Menu" asp-action="Product" asp-route-id="@product.Id">
+                <div class="img-wrapper">
+                    <img class="product product-image"
+                         src="~/assets/images/products/@product.Image" alt="Product Image">
+                </div>
+            </a>
+            <div class="product-info">
+                <div class="stars">
+
+                    @if (product.Rating != null)
+                    {
+                        @for (i = 0; i < Math.Floor((double)product.Rating); i++)
+                        {
+                            <div class="star">
+                                <div class="empty">
+                                    <div class="star-icon"></div>
+                                </div>
+                                <div class="full" style="width: 100%;">
+                                    <div class="star-icon"></div>
+                                </div>
+                            </div>
+                        }
+                        @for (int j = i; j < 5; j++)
+                        {
+                            if (j == i)
+                            {
+                                { res = (int)((product.Rating - Math.Floor((double)product.Rating)) * 100); }
+                                { test = res.ToString() + "%"; }
+                                <div class="star">
+                                    <div class="empty">
+                                        <div class="star-icon"></div>
+                                    </div>
+                                    <div class="full" style="width: @test">
+                                        <div class="star-icon"></div>
+                                    </div>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="star">
+                                    <div class="empty">
+                                        <div class="star-icon"></div>
+                                    </div>
+                                    <div class="full" style="width: 0%;">
+                                        <div class="star-icon"></div>
+                                    </div>
+                                </div>
+                            }
+
+                        }
+
+                    }
+                    else
+                    {
+                        for (int k = 0; k < 5; k++)
+                        {
+                            <div class="star">
+                                <div class="empty">
+                                    <div class="star-icon"></div>
+                                </div>
+                                <div class="full" style="width: 0%;">
+                                    <div class="star-icon"></div>
+                                </div>
+                            </div>
+                        }
+                    }
+
+
+
+                </div>
+                <a asp-controller="Menu" asp-action="Product" asp-route-id="@product.Id" class="product-title">@product.Name</a>
+                <p class="info">
+                    @product.Description
+                </p>
+
+            </div>
+            <div class="price-container">
+                @if (product.Prices.OldPrice != null && product.Prices.ShowOldPrice == true)
+                {
+                    <span aria-label="old-price" class="price-crossed">@product.Prices.OldPrice AZN</span>
+                }
+                <span aria-label="price-sale" class="price">@product.Prices.CurrentPrice AZN</span>
+            </div>
+            <button type="button" class="add-btn" data-id="@product.Id">Add To Cart</button>
+        </div>
+    </div>
+
+
+
+}
+<input type="hidden" id="productCount" value="@TempData["ProductsCount"]" />

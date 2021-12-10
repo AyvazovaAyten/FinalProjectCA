@@ -1,0 +1,89 @@
+﻿
+@{
+    ViewData["Title"] = "Update";
+}
+
+
+@model Delivery
+<div class="row">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Update Delivery Information</h4>
+                <form class="forms-sample" method="post">
+                    <div class="validation-error" asp-validation-summary="All"></div>
+                    <p>About Body</p>
+                    <textarea name="Info" id="Info" class="mb-4">
+                         @Html.Raw(Model.Info)          
+                    </textarea>
+                    
+                        <button type="submit" class="btn btn-success mr-2 mt-4">Save</button>
+                        <a class="btn btn-light mt-4" asp-action="Index">Cancel</a>
+                       
+                </form>
+                <h4 class="mt-4">Qəsəbələrə Sushi Çatdırılma</h4>
+                <div class="table-responsive mb-40 mt-4">
+                    <table class="table text-center">
+                        <thead>
+                            <tr>
+                                <th>Çatdırılma Ünvanı<br></th>
+                                <th>Çatdırılma Müddəti<br></th>
+                                <th>Minimum Sifariş Məbləği<br></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            @foreach (DeliveryAdress adress in Model.DeliveryAdresses)
+                            {
+                                <tr>
+                                    <td>@adress.Name &nbsp;q.<br></td>
+                                    <td>@adress.Time &nbsp;dəq<br></td>
+                                    <td>@adress.MinAmount AZN<br></td>
+                                    <td>
+                                        <a class="btn btn-warning mb-2" asp-action="UpdateDeliveryAdress" asp-route-id="@adress.Id">Update</a>
+                                        <form asp-action="DeleteDeliveryAdress" asp-route-id="@adress.Id">
+                                            <button class="btn btn-danger mt-2" type="submit" method="post">Delete</button>
+                                        </form>
+                                        
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <h4 class="mt-4">Add New Adress</h4>
+                <form class="forms-sample mt-5 mb-5" asp-action="CreateDeliveryAdress" method="post">
+                    <div class="text-danger mt-2">@TempData["Error"]</div>
+                    <div class="form-group">
+                        <label for="Name">Name</label>
+                        <input class="form-control" type="text" data-val="true" data-val-required="The Name field is required." id="Name" name="Name">
+                        <span class="text-danger field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Time">Time</label>
+                        <input class="form-control" type="text" data-val="true" data-val-required="The Time field is required." id="Time" name="Time">
+                        <span class="text-danger field-validation-valid" data-valmsg-for="Time" data-valmsg-replace="true"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="MinAmount">MinAmount</label>
+                        <input class="form-control valid" type="text" data-val="true" data-val-number="The field MinAmount must be a number." id="MinAmount" name="MinAmount" aria-describedby="MinAmount-error" aria-invalid="false">
+                        <span class="text-danger field-validation-valid" data-valmsg-for="MinAmount" data-valmsg-replace="true"></span>
+                    </div>
+                    <button type="submit" class="btn btn-success mr-2">Save</button>     
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section Script{
+    <partial name="_Script" />
+    <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script>
+
+    <script>
+        ClassicEditor
+            .create(document.querySelector('#Info'))
+            .catch(error => {
+                console.error(error);
+            });
+    </script>
+}

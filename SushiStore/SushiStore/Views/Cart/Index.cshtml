@@ -1,0 +1,80 @@
+﻿@model List<CartProduct>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!-- Page Intro Begins -->
+<section class="page-intro">
+    <div class="container-lg flex-col">
+        <h1 class="page-title">@Localizer["Cart"]</h1>
+    </div>
+</section>
+<!-- Page Intro Ends -->
+<!-- Cart Section Begins -->
+<section class="cart_section">
+    <div class="container-lg">
+        <div class="bag-content">
+            <div class="bag-title">@Localizer["Cart"] (<span id="cart-count">@ViewData["CartCount"]</span>)</div>
+            <div class="products" id="cartproductlist">
+                @foreach (CartProduct product in Model)
+                {
+                    <div class="basket-product" data-key="@product.ProductId">
+                        <div class="product__image" data-link="https://www.bakenroll.az/en/dish/sushi-tort">
+                            <img src="~/assets/images/products/@product.Image"
+                                 alt="@product.Name">
+                        </div>
+                        <div class="product__info">
+                            <div class="left-col">
+                                <p class="cart-text">
+                                    <a href="/redirect.faces?producto=17094044&amp;color=70"
+                                       class="product_title">
+                                        @product.Name
+                                    </a>
+                                </p>
+                                <div class="count">
+                                    <span data-id="@product.ProductId" class="minus-btn"><i class="fas fa-minus-square"></i></span>
+                                    <span class="cart-text">Count: <span class="TotalCount">@product.Quantity</span></span>
+                                    <span data-id="@product.ProductId" class="plus-btn"><i class="fas fa-plus-square"></i></span>
+                                </div>
+
+                            </div>
+                            <div class="right-col">
+                                <p class="cart-text price"><span id="current-price" class="current-price">@product.CurrentPrice</span>AZN </p>
+                                <div data-id="@product.ProductId" class="del-btn cart-del-btn"><i class="fas fa-trash-alt"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            </div>
+            <hr>
+            <div class="basket_footer">
+                <div class="cart-row col-12">
+                    <p class="cart-text column-4">@Localizer["Total"]</p>
+                    <p><span id="total-price" class="cart-total">@ViewData["TotalPrice"]</span> AZN</p>
+                </div>
+                <div class="delivery-info">
+                    <div class="cart-row">
+                        <p>@Localizer["Amount"]</p>
+                        <p>10 AZN</p>
+                    </div>
+                </div>
+                <div class="cart-row col-12">
+                    <div class="btn-box">
+                        <a asp-controller="Cart" asp-action="CheckOut" class="cart-btn buy">@Localizer["Buy"]</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Cart Section Ends -->
+@section Script{
+    <partial name="_ScriptCart" />
+}
+@section Title{
+    Shopping Cart
+}

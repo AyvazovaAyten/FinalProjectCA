@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewData["Title"] = "ChangeRole";
+}
+
+@model UserDto
+
+<div class="row">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">User Roles</h4>
+
+                <form class="forms-sample" method="post">
+                    <div asp-validation-summary="All" class="text-danger"></div>
+
+                    @foreach (string role in Model.Roles)
+                    {
+                        if (role == Model.Role)
+                        {
+                            <div class="form-group">
+                                <label for="Role">@role</label>
+                                <input type="radio" name="Role" value="@role" checked />
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="form-group">
+                                <label for="Role">@role</label>
+                                <input type="radio" name="Role" value="@role" />
+                            </div>
+                        }
+
+
+                    }
+
+                    <button type="submit" class="btn btn-primary mr-2">Change</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section Script{
+    <partial name="_Script" />
+}
+

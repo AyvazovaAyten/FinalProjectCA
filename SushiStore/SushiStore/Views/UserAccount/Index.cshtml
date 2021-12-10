@@ -1,0 +1,205 @@
+﻿@model User
+@{
+    ViewData["Title"] = "Index";
+
+}
+@{ int i = 1; }
+@{ int j = 1; }
+<!-- Page Intro Begins -->
+<section class="page-intro">
+    <div class="container-lg flex-col">
+        <h1 class="page-title">@Localizer["Account"]</h1>
+        <div>
+            <a asp-controller="Home" asp-action="Index"
+               title="Bake&amp;Roll - Online Sushi Order &amp; Free Sushi Delivery in Baku"><span>Bake&amp;Roll</span></a>
+        </div>
+    </div>
+</section>
+<!-- Page Intro Ends -->
+<!-- User Account Section Begins -->
+
+<div class="rate-modal">
+    <div class="rate-content">
+        <i class="fas fa-window-close close-btn" aria-hidden="true"></i>
+        <div id="RatePartial"></div>
+    </div>
+   
+</div>
+
+<section class="user-account_section">
+    <div class="account-container">
+        <div class="user-wrapper">
+            <div class="account-header">
+                <div class="title">
+                    <h4 class="user-name">@Model.FirstName</h4>
+                    <span>@Model.Email</span>
+                    <div class="rg-btn">
+                        <a asp-controller="Auth" asp-action="LogOut" class="log-btn">@Localizer["LogOut"]</a>
+                    </div>
+                </div>
+            </div>
+            <div class="account-actions">
+                <ul class="menu-box">
+                    <li class="menu-item active" data-content="1">
+                        <p class="menu-box-tab">@Localizer["Orders"]</p>
+                    </li>
+                    <li class="menu-item" data-content="2">
+                        <p class="menu-box-tab">@Localizer["Ratings"]</p>
+                    </li>
+                    <li class="menu-item" data-content="3">
+                        <p class="menu-box-tab">@Localizer["Settings"]</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="account-content">
+                <div class="content-wrapper active" data-category="1">
+                    <table class="orders-table">
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>@Localizer["Date"]</th>
+                                <th>@Localizer["Total"]</th>
+                                <th colspan="2">@Localizer["Count"]</th>
+
+                            </tr>
+                        </thead>
+                        <thead>
+                        </thead>
+
+                        <tbody>
+                            @foreach (Order order in Model.Orders)
+                            {
+                                <tr class="order" id="@order.Id">
+                                    <td>@i.</td>
+                                    <td class="order-date">@order.Date.ToString("dd/MM/yyyy")</td>
+                                    <td><span class="price">@order.TotalAmount</span>AZN</td>
+                                    <td>@order.OrderProducts.Sum(item => item.Quantity)</td>
+                                    <td class="detail-btn">@Localizer["Details"]</td>
+                                </tr>
+
+                                <tr class="order-detail" data-id="@order.Id">
+                                    <td class="details-td" colspan="5">
+                                        <div class="products">
+                                            @foreach (OrderProduct orderProduct in order.OrderProducts)
+                                            {
+                                                <div class="order-product" data-productid="@orderProduct.ProductId" id="@orderProduct.ProductId">
+
+                                                    <div class="rate-row"><span class="order-rate-btn">Rate</span></div>
+                                                    <div class="basket-product">
+                                                        <div class="product__image">
+                                                            <img src="~/assets/images/products/@orderProduct.Product.Image"
+                                                                 alt="Product Image">
+                                                        </div>
+                                                        <div class="product__info">
+                                                            <div class="left-col">
+                                                                <p class="cart-text">
+                                                                    <a href="/redirect.faces?producto=17094044&amp;color=70"
+                                                                       class="product_title">
+                                                                        @orderProduct.Product.Name
+                                                                    </a>
+                                                                </p>
+                                                                <p class="cart-text">Count: @orderProduct.Quantity</p>
+                                                            </div>
+                                                            <div class="right-col">
+                                                                <p class="cart-text price">@orderProduct.Price AZN</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            }
+
+                                        </div>
+                                    </td>
+                                </tr>
+                                i++;
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="content-wrapper" data-category="2">
+                    <table class="ratings-table">
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th></th>
+                                <th>@Localizer["Product"]</th>
+                                <th>@Localizer["Date"]</th>
+                                <th colspan="2">@Localizer["Rate"]</th>
+                            </tr>
+                        </thead>
+                        <thead>
+                        </thead>
+                        <tbody>
+                            @foreach (Rating rate in Model.Ratings)
+                            {
+                                <tr class="order" id="1">
+                                    <td>@j</td>
+                                    @{j++;}
+                                    <td class="product__image">
+                                        <img src="~/assets/images/products/@rate.Product.Image"
+                                             alt="Product Image">
+                                    </td>
+                                    <td>@rate.Product.Name</td>
+                                    <td class="rate-date">12.05.2021</td>
+                                    <td class="rate">@rate.Value</td>
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="content-wrapper" data-category="3">
+                    <div class="settings-content content-wrapper" data-category="3">
+                        <form method="post" asp-controller="UserAccount" asp-action="Change" asp-route-id="@Model.Id" class="account-form">
+                            <h4>@Localizer["Update"]</h4>
+                            <div class="input-gr input-gr-icon">
+                                <input asp-for="UserName" placeholder="First Name">
+                                <div class="input-icon"><i class="fa fa-user"></i></div>
+                                <span asp-validation-for="UserName" class="validation-error"></span>
+                            </div>
+                            <div class="input-gr input-gr-icon">
+                                <input asp-for="SurName" placeholder="Last Name">
+                                <div class="input-icon"><i class="fa fa-user"></i></div>
+                                <span asp-validation-for="SurName"></span>
+                            </div>
+                            <div class="input-gr">
+                                <select asp-for="Adress" placeholder="@Model.Adress">
+                                    <option value="Binəqədi">Binəqədi</option>
+                                    <option value="Nizami">Nizami</option>
+                                    <option value="Nərimanov">Nərimanov</option>
+                                    <option value="Nəsimi">Nəsimi</option>
+                                    <option value="Sabunçu">Sabunçu</option>
+                                    <option value="Suraxanı">Suraxanı</option>
+                                    <option value="Xətai">Xətai</option>
+                                    <option value="Xətai">Yasamal</option>
+                                </select>
+                            </div>
+                            <div class="input-gr">
+                                <span>Optional</span>
+                                <input asp-for="AdressLine" placeholder="@Model.AdressLine">
+                                <span asp-validation-for="AdressLine"></span>
+                            </div>
+                            <div class="blue-link">
+                                <a asp-controller="UserAccount" asp-action="ChangePassword">@Localizer["ChangePassword"]</a>
+                            </div>
+                            <div>
+                                <input class="submit-btn" type="submit" value="@Localizer["Change"]" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Form Section Ends -->
+
+@section Script{
+    <partial name="_ValidationScript" />
+    <partial name="_Script" />
+}

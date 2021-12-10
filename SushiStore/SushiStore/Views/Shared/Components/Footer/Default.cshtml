@@ -1,0 +1,90 @@
+﻿@model Bio
+<!-- Footer Begins -->
+<footer>
+    <div class="footer_callback" id="contacts">
+        <div class="container-lg">
+            <div class="section-title">
+                <p class="title_text">@Localizer["CallTitle"]</p>
+            </div>
+            <p class="section-text">
+                @Model.CallText
+            </p>
+            <button type="button" class="call-btn call-request">@Localizer["CallBtn"]</button>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal-content">
+            <i class="fas fa-window-close close-btn"></i>
+            <form id="callback-request" class="call-form" asp-controller="Base" asp-action="CallRequest" method="post">
+                <span class="validation-error"></span>
+                <p class="colored-text">@Localizer["CallModalTitle"]</p>
+                <div class="info">
+                    <span>@Model.CallText</span>
+                </div>
+                <div class="input-element">
+                    <i class="fas fa-user"></i>
+                    <input class="input" type="text" name="name" placeholder="@Localizer["FullName"]" required>
+                </div>
+                <div class="input-element">
+                    <i class="fas fa-phone"></i>
+                    <input class="input" type="tel" name="phone" placeholder="@Localizer["Phone"]" required>
+                </div>
+                <div class="input-element">
+                    <i class="fas fa-clock"></i>
+                    <select class="input" name="time" required>
+                        <option value="Now">@Localizer["ASAP"]</option>
+                        <option value="Before Lunch">@Localizer["ULunch"]</option>
+                        <option value="After Lunch">@Localizer["ALunch"]</option>
+                    </select>
+                </div>
+                <input class="button" type="submit" value="@Localizer["SendRequest"]" />
+            </form>
+        </div>
+    </div>
+    <div class="footer_main">
+        <div class="container-lg">
+            <i class="fish-icon"></i>
+            <p>
+                @Localizer["FooterText"]
+            </p>
+
+            <div class="contacts">
+                <ul class="telephone">
+                    @foreach (PhoneNumber num in Model.PhoneNumbers)
+                    {
+                        <li>
+                            <a href="tel:@num.Number">
+                                @num.Number
+                            </a>
+                        </li>
+                    }
+                </ul>
+
+                <a href="#"
+                   onclick="window.open('https://www.google.com/maps/place/BakenRoll+Sushi+Bar/40.368233,49.8280513,17z/data=!3m1!4b1!4m5!3m4!1s0x40307dc83004c171:0xb41a1a95081be914!8m2!3d40.368233!4d49.83024')"
+                   title="Find us on map">
+                    <i class="fas fa-map-marker-alt"></i>@Model.Adress
+                </a>
+            </div>
+
+            <div class="social-media">
+                <a class="sm-link" href="@Model.FbLink"><i class="fab fa-facebook-square"></i></a>
+                <a class="sm-link" href="@Model.InstagramLink"><i class="fab fa-instagram"></i></a>
+                <a class="sm-link" href="@Model.WhatsappLink"><i class="fab fa-whatsapp"></i></a>
+                <a class="sm-link" href="@Model.YoutubeLink"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container-lg">
+                <div class="row">
+                    <p class="rights">© 2021 Bake&Roll @Model.CopyRight</p>
+                    <div class="siteby">
+                        <span>Site By</span>
+                        <a href="https://az.linkedin.com/in/ayten-ayvazova-11477a216">@Model.SiteBy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Ends -->

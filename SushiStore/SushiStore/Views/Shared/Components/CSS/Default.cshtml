@@ -1,0 +1,9 @@
+﻿
+@model CSSCode
+
+@if (Model.Code != null && Model.Code.Trim().Length > 0)
+{
+    <style>      
+                @Html.Raw(Model.Code)
+    </style>
+}

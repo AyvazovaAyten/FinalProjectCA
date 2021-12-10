@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewData["Title"] = "Update";
+}
+@model Bio
+<div class="row">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Update Bio</h4>
+                <form class="forms-sample" method="post">
+                    <div class="form-group">
+                        <label asp-for="LogoFile"></label>
+                        <input asp-for="LogoFile" class="form-control" accept="image/*">
+                        <span asp-validation-for="LogoFile" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Adress"></label>
+                        <input asp-for="Adress" class="form-control" placeholder="Adress">
+                        <span asp-validation-for="Adress" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="WorkingHours"></label>
+                        <input asp-for="WorkingHours" class="form-control" placeholder="Adress">
+                        <span asp-validation-for="WorkingHours" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="WhatsappLink"></label>
+                        <input asp-for="WhatsappLink" class="form-control" placeholder="Whatsapp Link">
+                        <span asp-validation-for="WhatsappLink" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="FbLink"></label>
+                        <input asp-for="FbLink" class="form-control" placeholder="Facebook Link">
+                        <span asp-validation-for="FbLink" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="InstagramLink"></label>
+                        <input asp-for="InstagramLink" class="form-control" placeholder="Instagram Link">
+                        <span asp-validation-for="InstagramLink" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="YoutubeLink"></label>
+                        <input asp-for="YoutubeLink" class="form-control" placeholder="Youtube Link">
+                        <span asp-validation-for="YoutubeLink" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary mr-2">Change</button>
+                    <a class="btn btn-light" asp-controller="Dashboard"  asp-action="Index">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Script{
+    <partial name="_Script" />
+}

@@ -1,0 +1,67 @@
+﻿@model Rating
+@{ int k = 1; }
+<div class="basket-product">
+    <div class="product__image">
+        <img src="~/assets/images/products/@Model.Product.Image"
+             alt="Product Image">
+    </div>
+    <div class="product__info">
+        
+            <p class="cart-text">
+                <a asp-controller="Menu" asp-action="Product" asp-route-id="@Model.ProductId"
+                   class="product_title">
+                    @Model.Product.Name
+                </a>
+            </p>
+        
+        
+            <div class="product-rate">
+                <span class="rate">Rate</span>
+                <div class="stars order-rate" data-product="@Model.ProductId">
+                    @if (Model.UserId != null)
+                    {
+                        @for (k = 1; k <= Model.Value; k++)
+                        {
+                            <div class="star rated colored" value="@k">
+                                <div class="empty">
+                                    <div class="star-icon"></div>
+                                </div>
+                                <div class="full" style="width: 100%;">
+                                    <div class="star-icon"></div>
+                                </div>
+                            </div>
+                        }
+                        @for (int l = k; l <= 5; l++)
+                        {
+                            <div class="star rated" value="@l">
+                                <div class="empty">
+                                    <div class="star-icon"></div>
+                                </div>
+                                <div class="full" style="width: 0%;">
+                                    <div class="star-icon"></div>
+                                </div>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        @for (int z = 1; z <= 5; z++)
+                        {
+                            <div class="star" value="@z">
+                                <div class="empty">
+                                    <div class="star-icon"></div>
+                                </div>
+                                <div class="full" style="width: 0%;">
+                                    <div class="star-icon"></div>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+
+
+
+           
+        </div>
+    </div>
+</div>

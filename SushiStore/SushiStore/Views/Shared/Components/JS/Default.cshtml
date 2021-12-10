@@ -1,0 +1,12 @@
+﻿
+@model JSCode
+
+@if(Model.Code !=null && Model.Code.Trim().Length > 0)
+{
+        <script type="text/javascript">
+            $(function () {
+                
+                @Html.Raw(Model.Code)
+            });
+    </script>
+}

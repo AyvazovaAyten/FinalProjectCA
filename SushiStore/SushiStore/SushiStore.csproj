@@ -1,0 +1,206 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>d863b7c0-0f54-46f8-8498-971ea81cc406</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20210912175852_AddedOrdersOrderProductsRatingsShippingDetailsTables.cs" />
+    <Compile Remove="Migrations\20210912175852_AddedOrdersOrderProductsRatingsShippingDetailsTables.Designer.cs" />
+    <Compile Remove="Migrations\20210916184946_ChangedIdTypeOfCartItem.cs" />
+    <Compile Remove="Migrations\20210916184946_ChangedIdTypeOfCartItem.Designer.cs" />
+    <Compile Remove="Migrations\20210916185126_ChangedDb.cs" />
+    <Compile Remove="Migrations\20210916185126_ChangedDb.Designer.cs" />
+    <Compile Remove="Migrations\20210916185441_TestMigration.cs" />
+    <Compile Remove="Migrations\20210916185441_TestMigration.Designer.cs" />
+    <Compile Remove="Migrations\20210916185650_ChangedToStringId.cs" />
+    <Compile Remove="Migrations\20210916185650_ChangedToStringId.Designer.cs" />
+    <Compile Remove="Migrations\20210916185908_AddedCartItemIdTest.cs" />
+    <Compile Remove="Migrations\20210916185908_AddedCartItemIdTest.Designer.cs" />
+    <Compile Remove="Migrations\20210916190140_ReturnedToInitialState.cs" />
+    <Compile Remove="Migrations\20210916190140_ReturnedToInitialState.Designer.cs" />
+    <Compile Remove="Migrations\20210916190537_DeletedCartItemsTable.cs" />
+    <Compile Remove="Migrations\20210916190537_DeletedCartItemsTable.Designer.cs" />
+    <Compile Remove="Migrations\20210916190800_DeletedCartFromUsers.cs" />
+    <Compile Remove="Migrations\20210916190800_DeletedCartFromUsers.Designer.cs" />
+    <Compile Remove="Migrations\20210916191800_ChangedIdOfCartItem.cs" />
+    <Compile Remove="Migrations\20210916191800_ChangedIdOfCartItem.Designer.cs" />
+    <Compile Remove="Migrations\20210916192349_AddedInfoCol.cs" />
+    <Compile Remove="Migrations\20210916192349_AddedInfoCol.Designer.cs" />
+    <Compile Remove="Migrations\20210916192707_AddedIntId.cs" />
+    <Compile Remove="Migrations\20210916192707_AddedIntId.Designer.cs" />
+    <Compile Remove="Migrations\20210916195111_DeletedInfoColumn.cs" />
+    <Compile Remove="Migrations\20210916195111_DeletedInfoColumn.Designer.cs" />
+    <Compile Remove="Migrations\20210916195510_addedNewColTo.cs" />
+    <Compile Remove="Migrations\20210916195510_addedNewColTo.Designer.cs" />
+    <Compile Remove="Migrations\20210916195822_removedUserId.cs" />
+    <Compile Remove="Migrations\20210916195822_removedUserId.Designer.cs" />
+    <Compile Remove="Migrations\20210916202046_removedsometables.cs" />
+    <Compile Remove="Migrations\20210916202046_removedsometables.Designer.cs" />
+    <Compile Remove="Migrations\20210916202421_RemovedstringIdProduct.cs" />
+    <Compile Remove="Migrations\20210916202421_RemovedstringIdProduct.Designer.cs" />
+    <Compile Remove="Migrations\20210916203354_RemovedAndChangedtbls.cs" />
+    <Compile Remove="Migrations\20210916203354_RemovedAndChangedtbls.Designer.cs" />
+    <Compile Remove="Migrations\20210917053922_changeddbtbs.cs" />
+    <Compile Remove="Migrations\20210917053922_changeddbtbs.Designer.cs" />
+    <Compile Remove="Migrations\20210920114930_AddedRateForProducts.cs" />
+    <Compile Remove="Migrations\20210920114930_AddedRateForProducts.Designer.cs" />
+    <Compile Remove="Migrations\20210920122838_AddedRatingForProduct.cs" />
+    <Compile Remove="Migrations\20210920122838_AddedRatingForProduct.Designer.cs" />
+    <Compile Remove="Migrations\20210923070509_AddedAboutTable.cs" />
+    <Compile Remove="Migrations\20210923070509_AddedAboutTable.Designer.cs" />
+    <Compile Remove="Migrations\20211004145001_AddedMetaTagsPagesTables.cs" />
+    <Compile Remove="Migrations\20211004145001_AddedMetaTagsPagesTables.Designer.cs" />
+    <Compile Remove="Migrations\20211012071001_AddedPageIntrosTable.cs" />
+    <Compile Remove="Migrations\20211012071001_AddedPageIntrosTable.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.3" />
+    <PackageReference Include="jQuery" Version="3.6.0" />
+    <PackageReference Include="Localization.AspNetCore.TagHelpers" Version="0.6.0" />
+    <PackageReference Include="MailKit" Version="2.15.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.18" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.18" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.18" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.18">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Base\" />
+    <Folder Include="wwwroot\assets\fonts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Scripts\jquery\AUTHORS.txt" />
+    <None Include="wwwroot\Scripts\jquery\dist\jquery.js" />
+    <None Include="wwwroot\Scripts\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\Scripts\jquery\dist\jquery.min.map" />
+    <None Include="wwwroot\Scripts\jquery\dist\jquery.slim.js" />
+    <None Include="wwwroot\Scripts\jquery\dist\jquery.slim.min.js" />
+    <None Include="wwwroot\Scripts\jquery\dist\jquery.slim.min.map" />
+    <None Include="wwwroot\Scripts\jquery\external\sizzle\dist\sizzle.js" />
+    <None Include="wwwroot\Scripts\jquery\external\sizzle\dist\sizzle.min.js" />
+    <None Include="wwwroot\Scripts\jquery\external\sizzle\dist\sizzle.min.map" />
+    <None Include="wwwroot\Scripts\jquery\external\sizzle\LICENSE.txt" />
+    <None Include="wwwroot\Scripts\jquery\LICENSE.txt" />
+    <None Include="wwwroot\Scripts\jquery\README.md" />
+    <None Include="wwwroot\Scripts\jquery\src\ajax.js" />
+    <None Include="wwwroot\Scripts\jquery\src\ajax\jsonp.js" />
+    <None Include="wwwroot\Scripts\jquery\src\ajax\load.js" />
+    <None Include="wwwroot\Scripts\jquery\src\ajax\script.js" />
+    <None Include="wwwroot\Scripts\jquery\src\ajax\var\location.js" />
+    <None Include="wwwroot\Scripts\jquery\src\ajax\var\nonce.js" />
+    <None Include="wwwroot\Scripts\jquery\src\ajax\var\rquery.js" />
+    <None Include="wwwroot\Scripts\jquery\src\ajax\xhr.js" />
+    <None Include="wwwroot\Scripts\jquery\src\attributes.js" />
+    <None Include="wwwroot\Scripts\jquery\src\attributes\attr.js" />
+    <None Include="wwwroot\Scripts\jquery\src\attributes\classes.js" />
+    <None Include="wwwroot\Scripts\jquery\src\attributes\prop.js" />
+    <None Include="wwwroot\Scripts\jquery\src\attributes\support.js" />
+    <None Include="wwwroot\Scripts\jquery\src\attributes\val.js" />
+    <None Include="wwwroot\Scripts\jquery\src\callbacks.js" />
+    <None Include="wwwroot\Scripts\jquery\src\core.js" />
+    <None Include="wwwroot\Scripts\jquery\src\core\access.js" />
+    <None Include="wwwroot\Scripts\jquery\src\core\camelCase.js" />
+    <None Include="wwwroot\Scripts\jquery\src\core\DOMEval.js" />
+    <None Include="wwwroot\Scripts\jquery\src\core\init.js" />
+    <None Include="wwwroot\Scripts\jquery\src\core\isAttached.js" />
+    <None Include="wwwroot\Scripts\jquery\src\core\nodeName.js" />
+    <None Include="wwwroot\Scripts\jquery\src\core\parseHTML.js" />
+    <None Include="wwwroot\Scripts\jquery\src\core\parseXML.js" />
+    <None Include="wwwroot\Scripts\jquery\src\core\ready-no-deferred.js" />
+    <None Include="wwwroot\Scripts\jquery\src\core\ready.js" />
+    <None Include="wwwroot\Scripts\jquery\src\core\readyException.js" />
+    <None Include="wwwroot\Scripts\jquery\src\core\stripAndCollapse.js" />
+    <None Include="wwwroot\Scripts\jquery\src\core\support.js" />
+    <None Include="wwwroot\Scripts\jquery\src\core\toType.js" />
+    <None Include="wwwroot\Scripts\jquery\src\core\var\rsingleTag.js" />
+    <None Include="wwwroot\Scripts\jquery\src\css.js" />
+    <None Include="wwwroot\Scripts\jquery\src\css\addGetHookIf.js" />
+    <None Include="wwwroot\Scripts\jquery\src\css\adjustCSS.js" />
+    <None Include="wwwroot\Scripts\jquery\src\css\curCSS.js" />
+    <None Include="wwwroot\Scripts\jquery\src\css\finalPropName.js" />
+    <None Include="wwwroot\Scripts\jquery\src\css\hiddenVisibleSelectors.js" />
+    <None Include="wwwroot\Scripts\jquery\src\css\showHide.js" />
+    <None Include="wwwroot\Scripts\jquery\src\css\support.js" />
+    <None Include="wwwroot\Scripts\jquery\src\css\var\cssExpand.js" />
+    <None Include="wwwroot\Scripts\jquery\src\css\var\getStyles.js" />
+    <None Include="wwwroot\Scripts\jquery\src\css\var\isHiddenWithinTree.js" />
+    <None Include="wwwroot\Scripts\jquery\src\css\var\rboxStyle.js" />
+    <None Include="wwwroot\Scripts\jquery\src\css\var\rnumnonpx.js" />
+    <None Include="wwwroot\Scripts\jquery\src\css\var\swap.js" />
+    <None Include="wwwroot\Scripts\jquery\src\data.js" />
+    <None Include="wwwroot\Scripts\jquery\src\data\Data.js" />
+    <None Include="wwwroot\Scripts\jquery\src\data\var\acceptData.js" />
+    <None Include="wwwroot\Scripts\jquery\src\data\var\dataPriv.js" />
+    <None Include="wwwroot\Scripts\jquery\src\data\var\dataUser.js" />
+    <None Include="wwwroot\Scripts\jquery\src\deferred.js" />
+    <None Include="wwwroot\Scripts\jquery\src\deferred\exceptionHook.js" />
+    <None Include="wwwroot\Scripts\jquery\src\deprecated.js" />
+    <None Include="wwwroot\Scripts\jquery\src\deprecated\ajax-event-alias.js" />
+    <None Include="wwwroot\Scripts\jquery\src\deprecated\event.js" />
+    <None Include="wwwroot\Scripts\jquery\src\dimensions.js" />
+    <None Include="wwwroot\Scripts\jquery\src\effects.js" />
+    <None Include="wwwroot\Scripts\jquery\src\effects\animatedSelector.js" />
+    <None Include="wwwroot\Scripts\jquery\src\effects\Tween.js" />
+    <None Include="wwwroot\Scripts\jquery\src\event.js" />
+    <None Include="wwwroot\Scripts\jquery\src\event\focusin.js" />
+    <None Include="wwwroot\Scripts\jquery\src\event\support.js" />
+    <None Include="wwwroot\Scripts\jquery\src\event\trigger.js" />
+    <None Include="wwwroot\Scripts\jquery\src\exports\amd.js" />
+    <None Include="wwwroot\Scripts\jquery\src\exports\global.js" />
+    <None Include="wwwroot\Scripts\jquery\src\jquery.js" />
+    <None Include="wwwroot\Scripts\jquery\src\manipulation.js" />
+    <None Include="wwwroot\Scripts\jquery\src\manipulation\buildFragment.js" />
+    <None Include="wwwroot\Scripts\jquery\src\manipulation\getAll.js" />
+    <None Include="wwwroot\Scripts\jquery\src\manipulation\setGlobalEval.js" />
+    <None Include="wwwroot\Scripts\jquery\src\manipulation\support.js" />
+    <None Include="wwwroot\Scripts\jquery\src\manipulation\var\rscriptType.js" />
+    <None Include="wwwroot\Scripts\jquery\src\manipulation\var\rtagName.js" />
+    <None Include="wwwroot\Scripts\jquery\src\manipulation\wrapMap.js" />
+    <None Include="wwwroot\Scripts\jquery\src\manipulation\_evalUrl.js" />
+    <None Include="wwwroot\Scripts\jquery\src\offset.js" />
+    <None Include="wwwroot\Scripts\jquery\src\queue.js" />
+    <None Include="wwwroot\Scripts\jquery\src\queue\delay.js" />
+    <None Include="wwwroot\Scripts\jquery\src\selector-native.js" />
+    <None Include="wwwroot\Scripts\jquery\src\selector-sizzle.js" />
+    <None Include="wwwroot\Scripts\jquery\src\selector.js" />
+    <None Include="wwwroot\Scripts\jquery\src\serialize.js" />
+    <None Include="wwwroot\Scripts\jquery\src\traversing.js" />
+    <None Include="wwwroot\Scripts\jquery\src\traversing\findFilter.js" />
+    <None Include="wwwroot\Scripts\jquery\src\traversing\var\dir.js" />
+    <None Include="wwwroot\Scripts\jquery\src\traversing\var\rneedsContext.js" />
+    <None Include="wwwroot\Scripts\jquery\src\traversing\var\siblings.js" />
+    <None Include="wwwroot\Scripts\jquery\src\var\arr.js" />
+    <None Include="wwwroot\Scripts\jquery\src\var\class2type.js" />
+    <None Include="wwwroot\Scripts\jquery\src\var\document.js" />
+    <None Include="wwwroot\Scripts\jquery\src\var\documentElement.js" />
+    <None Include="wwwroot\Scripts\jquery\src\var\flat.js" />
+    <None Include="wwwroot\Scripts\jquery\src\var\fnToString.js" />
+    <None Include="wwwroot\Scripts\jquery\src\var\getProto.js" />
+    <None Include="wwwroot\Scripts\jquery\src\var\hasOwn.js" />
+    <None Include="wwwroot\Scripts\jquery\src\var\indexOf.js" />
+    <None Include="wwwroot\Scripts\jquery\src\var\isFunction.js" />
+    <None Include="wwwroot\Scripts\jquery\src\var\isWindow.js" />
+    <None Include="wwwroot\Scripts\jquery\src\var\ObjectFunctionString.js" />
+    <None Include="wwwroot\Scripts\jquery\src\var\pnum.js" />
+    <None Include="wwwroot\Scripts\jquery\src\var\push.js" />
+    <None Include="wwwroot\Scripts\jquery\src\var\rcheckableType.js" />
+    <None Include="wwwroot\Scripts\jquery\src\var\rcssNum.js" />
+    <None Include="wwwroot\Scripts\jquery\src\var\rnothtmlwhite.js" />
+    <None Include="wwwroot\Scripts\jquery\src\var\slice.js" />
+    <None Include="wwwroot\Scripts\jquery\src\var\support.js" />
+    <None Include="wwwroot\Scripts\jquery\src\var\toString.js" />
+    <None Include="wwwroot\Scripts\jquery\src\wrap.js" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>

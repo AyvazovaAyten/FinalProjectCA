@@ -1,0 +1,223 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+@model Delivery
+<!-- Page Intro Begins -->
+<section class="page-intro">
+    <div class="container-lg flex-col">
+        <h1 class="page-title">Free Delivery In Baku</h1>
+        <div>
+            <a asp-controller="Home" asp-action="Index"
+               title="Bake&amp;Roll - Online Sushi Order &amp; Free Sushi Delivery in Baku"><span>Bake&amp;Roll</span></a>
+            <span title="Blog"><span>Free Delivery In Baku</span></span>
+        </div>
+    </div>
+</section>
+<!-- Page Intro Ends -->
+<!-- Information Section Begins -->
+<section class="information_section">
+    <div class="container-lg">
+        <div class="section-title">
+            <p class="title_text">Delivery service&nbsp;</p>
+        </div>
+        @Html.Raw(Model.Info)
+    </div>
+</section>
+<!-- Information Section Ends -->
+
+<section class="adress_section">
+    <div class="container-lg">
+        <h4>Qəsəbələrə Sushi Çatdırılma</h4>
+        <div class="table-responsive mb-40">
+            <table class="table text-center">
+                <thead>
+                    <tr>
+                        <th>Çatdırılma Ünvanı<br></th>
+                        <th>Çatdırılma Müddəti<br></th>
+                        <th>Minimum Sifariş Məbləği<br></th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (DeliveryAdress adress in Model.DeliveryAdresses)
+                    {
+                        <tr>
+                            <td>@adress.Name &nbsp;q.<br></td>
+                            <td>@adress.Time &nbsp;dəq<br></td>
+                            <td>@adress.MinAmount AZN<br></td>
+                        </tr>
+                    }
+                    @*<tr>
+                        <td>2-ci mikrorayon &nbsp;q.<br></td>
+                        <td>45-60 &nbsp;dəq<br></td>
+                        <td>25.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>3-cü mikrorayon &nbsp;q.<br></td>
+                        <td>45-60 &nbsp;dəq<br></td>
+                        <td>25.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>4-cü mikrorayon &nbsp;q.<br></td>
+                        <td>45-60 &nbsp;dəq<br></td>
+                        <td>30.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>5-ci mikrorayon &nbsp;q.<br></td>
+                        <td>45-60 &nbsp;dəq<br></td>
+                        <td>25.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>6-cı mikrorayon &nbsp;q.<br></td>
+                        <td>45-60 &nbsp;dəq<br></td>
+                        <td>30.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>7-ci mikrorayon &nbsp;q.<br></td>
+                        <td>60-75 &nbsp;dəq<br></td>
+                        <td>30.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>8-ci mikrorayon &nbsp;q.<br></td>
+                        <td>45-60 &nbsp;dəq<br></td>
+                        <td>25.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>9-cu mikrorayon &nbsp;q.<br></td>
+                        <td>45-60 &nbsp;dəq<br></td>
+                        <td>30.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>20-ci sahə q.<br></td>
+                        <td>45-60 &nbsp;dəq<br></td>
+                        <td>30.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>Badamdar q.<br></td>
+                        <td>30-45 dəq<br></td>
+                        <td>30.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>Bakixanov q.<br></td>
+                        <td>75-90 dəq<br></td>
+                        <td>40.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>Bilgəh q.<br></td>
+                        <td>90-120 &nbsp;dəq<br></td>
+                        <td>60.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>Biləcəri q.<br></td>
+                        <td>60-75 &nbsp;dəq<br></td>
+                        <td>40.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>Buzovna q.<br></td>
+                        <td>90-120 &nbsp;dəq<br></td>
+                        <td>60.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>Günəşli q.<br></td>
+                        <td>75-90 &nbsp;dəq<br></td>
+                        <td>40.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>Həzi Aslanov q.<br></td>
+                        <td>75-90 &nbsp;dəq<br></td>
+                        <td>40.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>Hövsan q.<br></td>
+                        <td>75-90 &nbsp;dəq<br></td>
+                        <td>60.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>Kubinka q.<br></td>
+                        <td>30-45 &nbsp;dəq<br></td>
+                        <td>20.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>Köhnə Günəşli q.<br></td>
+                        <td>75-90 &nbsp;dəq<br></td>
+                        <td>40.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>Lökbatan q.<br></td>
+                        <td>75-90 &nbsp;dəq<br></td>
+                        <td>40.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>M.Ə.Rəsulzadə q.<br></td>
+                        <td>60-75 &nbsp;dəq<br></td>
+                        <td>40.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>Montin q.<br></td>
+                        <td>60-75 &nbsp;dəq<br></td>
+                        <td>30.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>Mərdəkan q.<br></td>
+                        <td>75-90 &nbsp;dəq<br></td>
+                        <td>60.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>NZS q.<br></td>
+                        <td>45-60 &nbsp;dəq<br></td>
+                        <td>30.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>Novxanı q.<br></td>
+                        <td>75-90 &nbsp;dəq<br></td>
+                        <td>60.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>Qara Şəhər q.<br></td>
+                        <td>30-45 &nbsp;dəq<br></td>
+                        <td>25.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>Sabunçu q.<br></td>
+                        <td>75-90 &nbsp;dəq<br></td>
+                        <td>40.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>Sahil q.<br></td>
+                        <td>75-90 &nbsp;dəq<br></td>
+                        <td>60.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>Səngəçal q.<br></td>
+                        <td>75-90 &nbsp;dəq<br></td>
+                        <td>60.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>Yeni Yasamal<br></td>
+                        <td>45-60 &nbsp;dəq<br></td>
+                        <td>25.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>Qaraçuxur<br></td>
+                        <td>60-75 &nbsp;dəq<br></td>
+                        <td>40.00 AZN<br></td>
+                    </tr>
+                    <tr>
+                        <td>8-ci km<br></td>
+                        <td>60-75 &nbsp;dəq<br></td>
+                        <td>30.00 AZN<br></td>
+                    </tr>*@
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+@section Script{
+    <partial name="_ValidationScript" />
+    <partial name="_Script" />
+}
+@section Title{
+    Delivery Information
+}

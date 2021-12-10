@@ -1,0 +1,80 @@
+﻿@model RegisterVM
+@{
+    ViewData["Title"] = "Register";
+}
+<!-- Page Intro Begins -->
+<section class="page-intro">
+    <div class="container-lg flex-col">
+        <h1 class="page-title">Free Delivery In Baku</h1>
+        <div>
+            <a asp-controller="Home" asp-action="Index"><span>Bake&amp;Roll</span></a>
+            <span title="Blog"><span>Free Delivery In Baku</span></span>
+        </div>
+    </div>
+</section>
+<!-- Page Intro Ends -->
+<!-- Form Section Begins -->
+<section class="account_section">
+    <div class="container-lg account-container">
+
+        <form method="post" asp-controller="Auth" asp-action="Register" class="account-form">
+            <h4>Register</h4>
+            <div asp-validation-summary="All" class="validation-error"></div>
+            <div class="input-gr input-gr-icon">
+                <input asp-for="FirstName" placeholder="First Name">
+                <div class="input-icon"><i class="fa fa-user"></i></div>
+                <span asp-validation-for="FirstName" class="validation-error"></span>
+            </div>
+            <div class="input-gr input-gr-icon">
+                <input asp-for="SurName" placeholder="Last Name">
+                <div class="input-icon"><i class="fa fa-user"></i></div>
+                <span asp-validation-for="SurName" class="validation-error"></span>
+            </div>
+            <div class="input-gr input-gr-icon">
+                <input asp-for="Email" placeholder="Email Adress">
+                <div class="input-icon"><i class="fa fa-envelope"></i></div>
+                <span asp-validation-for="Email" class="validation-error"></span>
+            </div>
+            <div class="input-gr input-gr-icon">
+                <input asp-for="Password" placeholder="Password">
+                <div class="input-icon"><i class="fa fa-key"></i></div>
+                <span asp-validation-for="Password" class="validation-error"></span>
+            </div>
+            <div class="input-gr input-gr-icon">
+                <input asp-for="ConfirmPassword" placeholder="Confirm Password">
+                <div class="input-icon"><i class="fa fa-key"></i></div>
+                <span asp-validation-for="ConfirmPassword" class="validation-error"></span>
+            </div>
+            <div class="input-gr">
+                <select asp-for="Adress" placeholder="Adress">
+                    <option value="Binəqədi">Binəqədi</option>
+                    <option value="Nizami">Nizami</option>
+                    <option value="Nərimanov">Nərimanov</option>
+                    <option value="Nəsimi">Nəsimi</option>
+                    <option value="Sabunçu">Sabunçu</option>
+                    <option value="Suraxanı">Suraxanı</option>
+                    <option value="Xətai">Xətai</option>
+                    <option value="Xətai">Yasamal</option>
+                </select>
+            </div>
+            <div class="input-gr">
+                <span>Optional</span>
+                <input asp-for="AdressLine" placeholder="Adress">
+                <span asp-validation-for="AdressLine" class="validation-error"></span>
+            </div>
+            <div>
+                <input class="submit-btn" type="submit" value="Register" />
+            </div>
+
+        </form>
+    </div>
+</section>
+
+<!-- Form Section Ends -->
+@section Script{
+    <partial name="_ValidationScript" />
+    <partial name="_Script" />
+}
+@section Title{
+    Register
+}

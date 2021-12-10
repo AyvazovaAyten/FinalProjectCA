@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewData["Title"] = "Detail";
+}
+
+@model CategoryVM
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">@Model.Category.Name</h4>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                
+                            </th>
+                            <th>
+                                Product Name
+                            </th>
+                            <th>
+                                Product Link
+                            </th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (Product product in Model.Products)
+                        {
+                        <tr> 
+                            <td class="py-1">
+                                <img src="~/assets/images/products/@product.Image" alt="image">
+                            </td>  
+                            <td>
+                                @product.Name
+                            </td>
+                            <td>
+                                <a class="btn btn-primary" asp-controller="Product" asp-action="Detail" asp-route-id="@product.Id">Detail</a>
+                            </td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

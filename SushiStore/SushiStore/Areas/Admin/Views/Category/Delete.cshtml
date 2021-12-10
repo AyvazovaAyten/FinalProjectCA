@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewData["Title"] = "Delete";
+}
+
+@model Category
+
+
+<div class="row">
+    <div class="col-md-6 d-flex align-items-stretch">
+        <div class="row">
+            <div class="col-md-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">@Model.Name</h4>
+                        <span>*Products in this category will also be deleted!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+
+                <form class="forms-sample" method="post">
+                    <button type="submit" class="btn btn-danger mr-2">Delete</button>
+                    <a class="btn btn-light" asp-action="Index">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

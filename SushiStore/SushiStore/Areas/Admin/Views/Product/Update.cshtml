@@ -1,0 +1,106 @@
+﻿@model ProductForCreate
+@{ ViewData["Title"] = "Create"; }
+
+<div class="row">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Update Product</h4>
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <form class="forms-sample" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label asp-for="Name"></label>
+                        <input asp-for="Name" class="form-control">
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="CurrentPrice"></label>
+                        <input asp-for="CurrentPrice" class="form-control">
+                        <span asp-validation-for="CurrentPrice" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="OldPrice"></label>
+                        <input asp-for="OldPrice" class="form-control">
+                        <span asp-validation-for="OldPrice" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ShowOldPrice"></label>
+                        <input asp-for="ShowOldPrice" class="form-control">
+                        <span asp-validation-for="ShowOldPrice" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ImageFile"></label>
+                        <input asp-for="ImageFile" class="form-control" accept="image/*">
+                        <span asp-validation-for="ImageFile" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Description"></label>
+                        <input asp-for="Description" class="form-control">
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Ingredients"></label>
+                        <input asp-for="Ingredients" class="form-control">
+                        <span asp-validation-for="Ingredients" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Oils"></label>
+                        <input asp-for="Oils" class="form-control">
+                        <span asp-validation-for="Oils" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Proteins"></label>
+                        <input asp-for="Proteins" class="form-control">
+                        <span asp-validation-for="Proteins" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Carbohydrates"></label>
+                        <input asp-for="Carbohydrates" class="form-control">
+                        <span asp-validation-for="Carbohydrates" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Calories"></label>
+                        <input asp-for="Calories" class="form-control">
+                        <span asp-validation-for="Calories" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Weight"></label>
+                        <input asp-for="Weight" class="form-control">
+                        <span asp-validation-for="Weight" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Count"></label>
+                        <input asp-for="Count" class="form-control">
+                        <span asp-validation-for="Count" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" name="CategoryId">
+                            <option value="@ViewBag.SelectedCategory[1]" selected>@ViewBag.SelectedCategory[0]</option>
+                            @foreach (var item in ViewBag.Categories)
+                            {
+                        <option value="@item.Id">@item.Name</option>
+}
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-success mr-2">Save</button>
+                    <button class="btn btn-light" asp-controller="Product" asp-action="Index">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Script{
+    <partial name="_Script" />
+    <script>$.validator.methods.range = function (value, element, param) {
+    var globalizedValue = value.replace(",", ".");
+    return this.optional(element) || (globalizedValue >= param[0] && globalizedValue <= param[1]);
+    }
+
+    $.validator.methods.number = function (value, element) {
+    return this.optional(element) || /^-?(?:\d+|\d{1,3}(?:[\s\.,]\d{3})+)(?:[\.,]\d+)?$/.test(value);
+    }</script>
+}
+
+

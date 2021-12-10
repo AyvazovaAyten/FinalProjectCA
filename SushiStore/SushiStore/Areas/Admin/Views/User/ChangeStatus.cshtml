@@ -1,0 +1,67 @@
+﻿
+@{
+    ViewData["Title"] = "ChangeStatus";
+}
+
+@model UserDto
+
+<div class="row">
+    <div class="col-md-6 d-flex align-items-stretch">
+        <div class="row">
+            <div class="col-md-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">@Model.FirstName</h4>
+                        <p>
+                            @Model.FirstName
+                        </p>
+                        <p>
+                            @Model.Email
+                        </p>
+                        <p>
+                            Status:
+                            @if (Model.IsDeleted)
+                            {
+                        <p>Deactive</p>
+                            } else
+                            {
+                    <p>Active</p>
+                            }
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 d-flex align-items-stretch">
+        <div class="row justify-content-center">
+            <div class="col-md-12 grid-margin stretch-card">
+                <a asp-action="Index" class="btn btn-primary">Go Back</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+
+                <form class="forms-sample" method="post">
+                    @if (Model.IsDeleted)
+                    {
+                        <input type="hidden" name="Status" value="false" />
+                    }
+                    else
+                    {
+                        <input type="hidden" name="Status" value="true" />
+                    }
+
+                    <button type="submit" class="btn btn-danger mr-2">Change Status</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

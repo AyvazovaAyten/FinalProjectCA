@@ -1,0 +1,266 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "Product";
+}
+@{ int l = 0;}
+@{ int res = 0;}
+@{ string test;}
+@{ int count = 4;}
+<!-- Page Intro Begins -->
+<section class="page-intro">
+    <div class="container-lg flex-col">
+        <h1 class="page-title">Bake<span class="colored-text">&amp;</span>Roll&nbsp;Sushi sets</h1>
+        <div>
+            <a asp-controller="Home" asp-action="Index"
+               title="Bake&amp;Roll - Online Sushi Order &amp; Free Sushi Delivery in Baku"><span>Bake&amp;Roll</span></a>
+            <span title="Blog"><span itemprop="name">@Model.Category.Name</span></span>
+        </div>
+    </div>
+</section>
+<!-- Page Intro Ends -->
+<!-- SingleProduct Section Begins -->
+<section class="singleProduct_section">
+    <div class="product-container">
+
+        <div class="product-wrapper">
+            <div class="image-col">
+                <div class="image-wrapper">
+                    <img class="product product-image" src="~/assets/images/products/@Model.Image"
+                         alt="Product Image">
+                </div>
+            </div>
+
+
+            <div class="product-info">
+                <div class="title-row">
+                    <h3 class="product-title">@Model.Name</h3>
+                </div>
+
+
+                <div class="stars">
+
+
+                    @if (Model.Rating != null)
+                    {
+                        @for (l = 0; l < Math.Floor((double)Model.Rating); l++)
+                        {
+                            <div class="star">
+                                <div class="empty">
+                                    <div class="star-icon"></div>
+                                </div>
+                                <div class="full" style="width: 100%;">
+                                    <div class="star-icon"></div>
+                                </div>
+                            </div>
+                        }
+                        @for (int j = l; j < 5; j++)
+                        {
+                            if (j == l)
+                            {
+                                { res = (int)((Model.Rating - Math.Floor((double)Model.Rating)) * 100); }
+                                { test = res.ToString() + "%"; }
+                                <div class="star">
+                                    <div class="empty">
+                                        <div class="star-icon"></div>
+                                    </div>
+                                    <div class="full" style="width: @test">
+                                        <div class="star-icon"></div>
+                                    </div>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="star">
+                                    <div class="empty">
+                                        <div class="star-icon"></div>
+                                    </div>
+                                    <div class="full" style="width: 0%;">
+                                        <div class="star-icon"></div>
+                                    </div>
+                                </div>
+                            }
+
+                        }
+
+                    }
+                    else
+                    {
+                        for (int k = 0; k < 5; k++)
+                        {
+                            <div class="star">
+                                <div class="empty">
+                                    <div class="star-icon"></div>
+                                </div>
+                                <div class="full" style="width: 0%;">
+                                    <div class="star-icon"></div>
+                                </div>
+                            </div>
+                        }
+                    }
+                    @if (Model.Rating == null)
+                    {
+                        <span class="rate-count"> 0 Ratings</span>
+                    }
+                    else
+                    {
+                        <span class="rate-count"> @Model.Ratings.Count Ratings</span>
+                    }
+                </div>
+                <p class="info">
+                    @Model.Description
+                </p>
+                <div class="description">
+                    <p class="title">Sushi Tort Ingredients:</p>
+                    <p>
+                        @Model.Ingredients
+                    </p>
+                    @if (Model.Weight != null)
+                    {
+                        <p>Weight: @Model.Weight gr</p>
+                    }
+                </div>
+
+
+                <div class="product-footer">
+                    @if (@Model.Nutrition != null && @Model.Nutrition.Calories != null)
+                    {
+                        <div class="nutrition">
+                            <p>Amount of calories 100g of product: <span class="value">@Model.Nutrition.Calories</span></p>
+                            <div class="nutrition-detail">
+                                <p>Oils:<span class="value">@Model.Nutrition.Oils </span>gr</p>
+                                <p>Proteins:<span class="value">@Model.Nutrition.Proteins </span>gr</p>
+                                <p>Carbohydrates:<span class="value">@Model.Nutrition.Carbohydrates </span>gr</p>
+                            </div>
+                        </div>
+                    }
+
+                    <div class="price-container">
+                        @if (@Model.Prices.OldPrice != null)
+                        {
+                            <span aria-label="First price" class="price-crossed">@Model.Prices.OldPrice AZN</span>
+                        }
+                        <span aria-label="price-sale" class="price">@Model.Prices.CurrentPrice AZN</span>
+                    </div>
+                    <button type="button" class="add-btn" data-id="@Model.Id">Add To Cart</button>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+</section>
+<!-- SingleProduct Section Ends -->
+<!-- Product Recommend Section Begins -->
+@if (Model.Category.Products.Count < 4)
+{
+    count = Model.Category.Products.Count;
+}
+<section class="product-recommendation_section">
+    <div class="container-lg">
+        <div class="product-category">
+            <div class="section-title">
+                <p class="title_text">Other Products</p>
+            </div>
+            <div class="products">
+                @for (int i = 0; i < count; i++)
+                {
+                    <div class="card-column product-item singleProduct" id="@Model.Category.Products.ElementAt(i).Id">
+                        <div class="product-card">
+                            <a class="product" asp-controller="Menu" asp-action="Product" asp-route-id="@Model.Category.Products.ElementAt(i).Id">
+                                <div class="img-wrapper">
+                                    <img class="product product-image"
+                                         src="~/assets/images/products/@Model.Category.Products.ElementAt(i).Image" alt="Product Image">
+                                </div>
+                            </a>
+                            <div class="product-info">
+                                <div class="stars">
+                                    @if (Model.Rating != null)
+                                    {
+                                        @for (l = 0; l < Math.Floor((double)Model.Rating); l++)
+                                        {
+                                            <div class="star">
+                                                <div class="empty">
+                                                    <div class="star-icon"></div>
+                                                </div>
+                                                <div class="full" style="width: 100%;">
+                                                    <div class="star-icon"></div>
+                                                </div>
+                                            </div>
+                                        }
+                                        @for (int j = l; j < 5; j++)
+                                        {
+                                            if (j == l)
+                                            {
+                                                { res = (int)((Model.Rating - Math.Floor((double)Model.Rating)) * 100); }
+                                                { test = res.ToString() + "%"; }
+                                                <div class="star">
+                                                    <div class="empty">
+                                                        <div class="star-icon"></div>
+                                                    </div>
+                                                    <div class="full" style="width: @test">
+                                                        <div class="star-icon"></div>
+                                                    </div>
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <div class="star">
+                                                    <div class="empty">
+                                                        <div class="star-icon"></div>
+                                                    </div>
+                                                    <div class="full" style="width: 0%;">
+                                                        <div class="star-icon"></div>
+                                                    </div>
+                                                </div>
+                                            }
+
+                                        }
+
+                                    }
+                                    else
+                                    {
+                                        for (int k = 0; k < 5; k++)
+                                        {
+                                            <div class="star">
+                                                <div class="empty">
+                                                    <div class="star-icon"></div>
+                                                </div>
+                                                <div class="full" style="width: 0%;">
+                                                    <div class="star-icon"></div>
+                                                </div>
+                                            </div>
+                                        }
+                                    }
+
+                                </div>
+                                <a asp-controller="Menu" asp-action="Product" asp-route-id="@Model.Category.Products.ElementAt(i).Id" class="product-title">@Model.Category.Products.ElementAt(i).Name</a>
+                                <p class="info">
+                                    @Model.Category.Products.ElementAt(i).Description
+                                </p>
+                                <div class="price-container">
+                                    @if (@Model.Category.Products.ElementAt(i).Prices.OldPrice != null)
+                                    {
+                                        <span aria-label="First price 49 Azn" class="price-crossed">49 AZN</span>
+                                    }
+                                    <span aria-label="price-sale" class="price">@Model.Category.Products.ElementAt(i).Prices.CurrentPrice</span>
+                                </div>
+                            </div>
+                            <button type="button" class="add-btn" data-id="@Model.Category.Products.ElementAt(i).Id">Add To Cart</button>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- Product Recommend Section Ens -->
+@section Script{
+    <partial name="_Script" />
+}
+@section Title{
+    @Model.Name
+}

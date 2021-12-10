@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+@model Page
+
+@section Title{
+    @Model.Title.Text
+}
+
+@section Tags{
+    @foreach (MetaTag tag in Model.MetaTags)
+    {
+        @Html.Raw(tag.Tag)
+    }
+}
+<section class="page-intro">
+    <div class="container-lg flex-col">
+        <h1 class="page-title">Bake<span class="">&amp;</span>Roll&nbsp;Menu</h1>
+        <div>
+            <a asp-controller="Home" asp-action="Index"><span>Bake&amp;Roll</span></a>
+            <span title="Menu"><span>Menu</span></span>
+        </div>
+    </div>
+</section>
+
+@await Component.InvokeAsync("Product")
+
+@section Script{
+    <partial name="_ScriptHome" />
+}

@@ -1,0 +1,87 @@
+﻿@model Order
+@{
+    ViewData["Title"] = "Completed";
+}
+
+<!-- Page Intro Begins -->
+<section class="page-intro">
+    <div class="container-lg flex-col">
+        <h1 class="page-title">@Localizer["Order"]</h1>
+        <div>
+            <a asp-controller="Home" asp-action="Index"
+               title="Bake&amp;Roll - Online Sushi Order &amp; Free Sushi Delivery in Baku"><span>Bake&amp;Roll</span></a>
+        </div>
+    </div>
+</section>
+<!-- Page Intro Ends -->
+
+<section class="order-section">
+    <div class="account-container">
+        <div class="user-wrapper">
+
+            <h3 class="success-text">
+                @Localizer["SuccessText"] <i class="far fa-check-circle check-icon"></i>
+            </h3>
+
+            <div class="account-content">
+                <div class="content-wrapper active" data-category="1">
+                    <table class="orders-table">
+                        <thead>
+                            <tr>
+                                <th>@Localizer["Date"]</th>
+                                <th>@Localizer["Total"]</th>
+                                <th>@Localizer["Count"]</th>
+                            </tr>
+                        </thead>
+                        <thead>
+                        </thead>
+                        <tbody>
+                            <tr class="order" id="1">
+                                <td class="order-date">@Model.Date</td>
+                                <td><span class="price">@Model.TotalAmount</span>AZN</td>
+                                <td>@ViewData["TotalQuantity"]</td>
+                            </tr>
+
+                            <tr class="order-detail show" data-id="1">
+                                <td class="details-td" colspan="5">
+                                    <div class="products">
+                                        @foreach (OrderProduct orderProduct in Model.OrderProducts)
+                                        {
+                                            <div class="basket-product">
+                                                <div class="product__image">
+                                                    <img src="~/assets/images/products/@orderProduct.Product.Image"
+                                                         alt="Product Image">
+                                                </div>
+                                                <div class="product__info">
+                                                    <div class="left-col">
+                                                        <p class="cart-text">
+                                                            <a href="/redirect.faces?producto=17094044&amp;color=70"
+                                                               class="product_title">
+                                                                @orderProduct.Product.Name
+                                                            </a>
+                                                        </p>
+                                                        <p class="cart-text">@Localizer["Count"]: @orderProduct.Quantity</p>
+                                                    </div>
+                                                    <div class="right-col">
+                                                        <p class="cart-text price">@orderProduct.Price AZN</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        }
+                                    </div>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+@section Title{
+    Order Completed
+}

@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewData["Title"] = "Update";
+}
+
+@model About
+<div class="row">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Update About Information</h4>
+                <form class="forms-sample" method="post">
+                    <div class="validation-error" asp-validation-summary="All"></div>
+                    <p>About Text Title</p>
+                    <div class="form-group">
+                        <input asp-for="Title" class="form-control">
+                        <span asp-validation-for="Title" class="text-danger"></span>
+                    </div>
+                    <p>About Body</p>
+                    <textarea name="AboutBody" id="AboutBody">
+                         @Html.Raw(Model.AboutBody)
+           
+                    </textarea>
+                    <div class="form-group">
+                        <label asp-for="VideoLink"></label>
+                        <input asp-for="VideoLink" class="form-control">
+                        <span asp-validation-for="VideoLink" class="text-danger"></span>
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                    <a class="btn btn-light" asp-action="Index">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section Script{
+    <partial name="_Script" />
+    <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script>
+    <script>
+    ClassicEditor
+        .create(document.querySelector('#AboutBody'))
+        .catch(error => {
+            console.error(error);
+        });
+    </script>
+}
+

@@ -1,0 +1,122 @@
+﻿
+@{
+    Layout = null;
+}
+
+@model ShippingDetail
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=1, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <title>CheckOut  •  Bakenroll.az • Online Sushi Order &amp; Free Sushi Delivery in Baku</title>
+    <meta name="description"
+          content="Bake&amp;Roll - offers free delivery of 🍣 sushi orders to homes and offices in Baku. Visitors can book online for 7 days a week, ⏰ 24 hours a day, Sushi set, Roll">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/vendors/slick/slick.css">
+    <link rel="stylesheet" href="~/vendors/slick/slick-theme.css">
+
+
+
+    <link href="~/assets/css/style.css" rel="stylesheet" type="text/css" />
+
+
+    <script src="https://kit.fontawesome.com/bce32b97fb.js" crossorigin="anonymous"></script>
+
+    
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="~/vendors/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <div class="main_wrapper">
+
+        <!-- Page Intro Begins -->
+        <section class="page-intro">
+            <div class="container-lg flex-col">
+                <h1 class="page-title">@Localizer["Title"]</h1>
+                <div>
+                    <a asp-controller="Home" asp-action="Index"
+                       title="Bake&amp;Roll - Online Sushi Order &amp; Free Sushi Delivery in Baku"><span>Bake&amp;Roll</span></a>
+                    <span title="CheckOut"><span>@Localizer["Title"]</span></span>
+                </div>
+            </div>
+        </section>
+        <!-- Page Intro Ends -->
+        <!-- Form Section Begins -->
+        <section class="account_section">
+            <div class="container-lg account-container">
+
+                <form method="post" asp-controller="Cart" asp-action="CheckOut" class="account-form checkout-form">
+                    <h4>@Localizer["CheckOut"]</h4>
+                    <div asp-validation-summary="ModelOnly" class="validation-error"></div>
+                    <div class="input-gr input-gr-icon">
+                        <input asp-for="Name" placeholder="@Localizer["Name"]">
+                        <div class="input-icon"><i class="fa fa-user"></i></div>
+                        <span asp-validation-for="Name" class="validation-error"></span>
+                    </div>
+                    <div class="input-gr input-gr-icon">
+                        <input asp-for="SurName" placeholder="@Localizer["LastName"]">
+                        <div class="input-icon"><i class="fa fa-user"></i></div>
+                        <span asp-validation-for="SurName" class="validation-error"></span>
+                    </div>
+                    <div class="input-gr">
+                        <select asp-for="Adress" placeholder="@Localizer["Adress"]">
+                            <option value="Binəqədi">Binəqədi</option>
+                            <option value="Nizami">Nizami</option>
+                            <option value="Nərimanov">Nərimanov</option>
+                            <option value="Nəsimi">Nəsimi</option>
+                            <option value="Sabunçu">Sabunçu</option>
+                            <option value="Suraxanı">Suraxanı</option>
+                            <option value="Xətai">Xətai</option>
+                            <option value="Xətai">Yasamal</option>
+                        </select>
+                    </div>
+                    <div class="input-gr">
+                        <input asp-for="AdressLine" placeholder="@Localizer["AdressLine"]">
+                        <span asp-validation-for="AdressLine" class="validation-error"></span>
+                    </div>
+                    <div class="input-gr">
+                        <input asp-for="PhoneNumber" placeholder="@Localizer["Phone"]">
+                        <span asp-validation-for="PhoneNumber" class="validation-error"></span>
+                    </div>
+
+                    <div class="input-gr check">
+                        <input asp-for="TakeMyself">
+                        <label asp-for="TakeMyself"></label>
+                    </div>
+
+                    <div>
+                        <input class="submit-btn" type="submit" value="@Localizer["Submit"]" />
+                    </div>
+
+                </form>
+            </div>
+        </section>
+
+        <!-- Form Section Ends -->
+
+        @await Component.InvokeAsync("Footer")
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="~/js/common.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+    @await Component.InvokeAsync("JS")
+</body>
+
+</html>

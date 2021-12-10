@@ -1,0 +1,84 @@
+﻿
+@{
+    ViewData["Title"] = "Campaign";
+}
+@model CampaignVM
+<!-- Page Intro Begins -->
+<section class="page-intro">
+    <div class="container-lg flex-col">
+        <h1 class="page-title">Bake<span class="">&amp;</span>Roll&nbsp;Campaigns</h1>
+        <div>
+            <a href="https://www.bakenroll.az/en"
+               title="Bake&amp;Roll - Online Sushi Order &amp; Free Sushi Delivery in Baku"><span>Bake&amp;Roll</span></a>
+            <span title="Blog"><span itemprop="name">Offer of the Week</span></span>
+        </div>
+    </div>
+</section>
+<!-- Page Intro Ends -->
+<!-- Blog Begins -->
+<section class="campaign_section">
+    <div class="campaign-container">
+        <div class="campaign-wrapper">
+            <article class="campaign">
+                <div class="image">
+                    <img src="~/assets/images/campaigns/@Model.Campaign.Image"
+                         alt="Unlimited Sushi Day">
+                </div>
+                <div class="info">
+                    <h3>Offer of the Week</h3>
+                    <div class="header-row">
+                        <img src="~/assets/images/bakenroll-sushi-baku-bar.png" />
+                        <span class="secondary-text"><i class="fas fa-bullhorn"></i>@Model.Campaign.Duration</span>
+                    </div>
+                    <div class="campaign-body">
+                        <h5>
+                            @Model.Campaign.Description
+                        </h5>
+                        <div class="detail-wrapper">
+                            @Html.Raw(@Model.Campaign.Details)
+
+                        </div>
+
+                    </div>
+                </div>
+            </article>
+        </div>
+
+
+    </div>
+</section>
+<!-- Blog Ends -->
+<section class="other-campaigns">
+    <div class="campaign-container">
+        <div class="section-title">
+            <p class="title_text">Other Campaigns</p>
+        </div>
+        <div class="campaign-grid">
+            @foreach (IntroSlider campaign in Model.OtherCampaigns)
+            {
+                <div class="campaign-wrapper">
+                    <article class="campaign">
+                        <div class="image">
+                            <img src="~/assets/images/campaigns/@campaign.Image"
+                                 alt="Campaign Image">
+                        </div>
+                        <div class="info">
+                            <h3>Offer of the Week</h3>
+                            <p class="info-text">
+                                @campaign.Description
+                            </p>
+                            <span class="secondary-text"><i class="fas fa-bullhorn"></i>@campaign.Duration</span>
+                        </div>
+
+                        <a asp-action="Campaign" asp-route-id="@campaign.Id" class="campaign-link"></a>
+                    </article>
+                </div>
+            }
+
+        </div>
+    </div>
+
+</section>
+@section Title{
+    @Model.Campaign.Description
+}

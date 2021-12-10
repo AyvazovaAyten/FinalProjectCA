@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+@model AboutVM
+
+@section Title{
+    @Model.Page.Title.Text
+}
+
+@section Tags{
+    @foreach (MetaTag tag in Model.Page.MetaTags)
+    {
+        @Html.Raw(tag.Tag)
+    }
+}
+
+
+<!-- Page Intro Begins -->
+<section class="page-intro" style="background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url('./assets/images/covers/@Model.Page.PageIntro.Background') no-repeat center;">
+    <div class="container-lg flex-col">
+        <h1 class="page-title about-title">@Model.Page.PageIntro.IntroText</h1>
+    </div>
+</section>
+<!-- Page Intro Ends -->
+<!-- About Section Begins -->
+<section class="about_section">
+    <div class="about-container">
+        <h3>@Model.About.Title</h3>
+        <div class="about-body">
+            @Html.Raw(Model.About.AboutBody)
+        </div>
+        @if (Model.About.VideoLink != null && Model.About.VideoLink.Trim().Length>0)
+        {
+            <div class="video">
+                <iframe src="@Model.About.VideoLink"
+                        title="YouTube video player" frameborder="0" allowfullscreen
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            </div>
+        }
+
+    </div>
+</section>
+<!-- About Section Ends -->
+@section Script{
+    <partial name="_Script" />
+}

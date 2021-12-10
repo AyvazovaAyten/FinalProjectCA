@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+@model List<Title>
+<div class="row">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <div class="text-danger mt-2">@TempData["Error"]</div>
+                <div class="table-responsive mb-40 mt-4">
+                    <table class="table text-center">
+                        <thead>
+                            <tr>
+                                <th>Page<br></th>
+                                <th>Title<br></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            @foreach (Title title in Model)
+                            {
+                                <tr>
+                                    <td>@title.Page.Name<br></td>
+
+                                    <td>
+                                        <form asp-action="UpdateTitle" asp-route-id="@title.Id" class="forms-sample">
+                                            <div class="form-group mb-3 mt-2">
+                                                <input type="text" name="titletext" placeholder="Title" value="@title.Text" class="form-control">
+
+                                            </div>
+
+                                            <button class="btn btn-success" type="submit">Save</button>
+                                        </form>
+                                        <br>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
